@@ -1,0 +1,122 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e5]:
+      - button "Menu" [ref=e12] [cursor=pointer]
+      - link "Medusa Store" [ref=e14] [cursor=pointer]:
+        - /url: /dk
+      - generic [ref=e15]:
+        - link "Account" [ref=e17] [cursor=pointer]:
+          - /url: /dk/account
+        - button "Cart (0)" [ref=e20] [cursor=pointer]:
+          - link "Cart (0)" [ref=e21]:
+            - /url: /dk/cart
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e25]:
+          - heading "Medusa Sweatshirt" [level=2] [ref=e26]
+          - paragraph [ref=e27]: Reimagine the feeling of a classic sweatshirt. With our cotton sweatshirt, everyday essentials no longer have to be ordinary.
+        - generic [ref=e29]:
+          - heading "Product Information" [level=3] [ref=e31]:
+            - generic [ref=e33]:
+              - paragraph [ref=e35]: Product Information
+              - button [ref=e36] [cursor=pointer]
+          - heading "Shipping & Returns" [level=3] [ref=e42]:
+            - generic [ref=e44]:
+              - paragraph [ref=e46]: Shipping & Returns
+              - button [ref=e47] [cursor=pointer]
+      - generic [ref=e54]:
+        - img "Product image 1" [ref=e56]
+        - img "Product image 2" [ref=e58]
+      - generic [ref=e60]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: Select Size
+          - generic [ref=e66]:
+            - button "L" [ref=e67] [cursor=pointer]
+            - button "M" [ref=e68] [cursor=pointer]
+            - button "S" [ref=e69] [cursor=pointer]
+            - button "XL" [ref=e70] [cursor=pointer]
+        - generic [ref=e73]: From €10.00
+        - button "Out of stock" [disabled] [ref=e74]
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: Related products
+        - paragraph [ref=e79]: You might also want to check out these products.
+      - list [ref=e80]:
+        - listitem [ref=e81]:
+          - link "Thumbnail Medusa Shorts €10.00" [ref=e82] [cursor=pointer]:
+            - /url: /dk/products/shorts
+            - generic [ref=e83]:
+              - img "Thumbnail" [ref=e85]
+              - generic [ref=e86]:
+                - paragraph [ref=e87]: Medusa Shorts
+                - paragraph [ref=e89]: €10.00
+        - listitem [ref=e90]:
+          - link "Thumbnail Medusa T-Shirt €10.00" [ref=e91] [cursor=pointer]:
+            - /url: /dk/products/t-shirt
+            - generic [ref=e92]:
+              - img "Thumbnail" [ref=e94]
+              - generic [ref=e95]:
+                - paragraph [ref=e96]: Medusa T-Shirt
+                - paragraph [ref=e98]: €10.00
+        - listitem [ref=e99]:
+          - link "Thumbnail Medusa Sweatpants €10.00" [ref=e100] [cursor=pointer]:
+            - /url: /dk/products/sweatpants
+            - generic [ref=e101]:
+              - img "Thumbnail" [ref=e103]
+              - generic [ref=e104]:
+                - paragraph [ref=e105]: Medusa Sweatpants
+                - paragraph [ref=e107]: €10.00
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - link "Medusa Store" [ref=e112] [cursor=pointer]:
+          - /url: /dk
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Categories
+            - list [ref=e116]:
+              - listitem [ref=e117]:
+                - link "Shirts" [ref=e118] [cursor=pointer]:
+                  - /url: /dk/categories/shirts
+                - list
+              - listitem [ref=e119]:
+                - link "Sweatshirts" [ref=e120] [cursor=pointer]:
+                  - /url: /dk/categories/sweatshirts
+                - list
+              - listitem [ref=e121]:
+                - link "Pants" [ref=e122] [cursor=pointer]:
+                  - /url: /dk/categories/pants
+                - list
+              - listitem [ref=e123]:
+                - link "Merch" [ref=e124] [cursor=pointer]:
+                  - /url: /dk/categories/merch
+                - list
+          - generic [ref=e125]:
+            - generic [ref=e126]: Medusa
+            - list [ref=e127]:
+              - listitem [ref=e128]:
+                - link "GitHub" [ref=e129] [cursor=pointer]:
+                  - /url: https://github.com/medusajs
+              - listitem [ref=e130]:
+                - link "Documentation" [ref=e131] [cursor=pointer]:
+                  - /url: https://docs.medusajs.com
+              - listitem [ref=e132]:
+                - link "Source code" [ref=e133] [cursor=pointer]:
+                  - /url: https://github.com/medusajs/nextjs-starter-medusa
+      - generic [ref=e134]:
+        - paragraph [ref=e135]: © 2026 Medusa Store. All rights reserved.
+        - paragraph [ref=e136]:
+          - text: Powered by
+          - link [ref=e137] [cursor=pointer]:
+            - /url: https://www.medusajs.com
+            - img [ref=e138]
+          - text: "&"
+          - link [ref=e140] [cursor=pointer]:
+            - /url: https://nextjs.org
+            - img [ref=e141]
+  - alert [ref=e143]: Medusa Sweatshirt | Medusa Store
+  - button "Open Next.js Dev Tools" [ref=e149] [cursor=pointer]:
+    - img [ref=e150]
+```
