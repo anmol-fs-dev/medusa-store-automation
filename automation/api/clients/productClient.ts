@@ -6,8 +6,9 @@ export class ProductClient extends BaseClient {
         super(request, token);
     }
 
-    async listProducts() {
-        const response = await this.get("/store/products");
+    async listProducts(queryParams?: string) {
+        const url = queryParams ? `/store/products?${queryParams}` : "/store/products";
+        const response = await this.get(url);
         return response.json();
     }
 
